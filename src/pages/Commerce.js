@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { filterProducts } from '../lib/helper'
-import { prefetch } from '@layer0/prefetch/window'
+import { prefetch } from '@edgio/prefetch/window'
 import LeftSidebar from '../components/LeftSidebar'
 import RightSidebar from '../components/RightSidebar'
 import ProductPreview from '../components/ProductPreview'

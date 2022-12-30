@@ -1,11 +1,11 @@
 {
-  "name": "layer0-reactjs-example",
+  "name": "edgio-reactjs-example",
   "scripts": {
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy",
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
   "dependencies": {
@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@heroicons/react": "^1.0.6",
-    "@layer0/cli": "^4.15.7",
-    "@layer0/core": "^4.15.7",
-    "@layer0/devtools": "^4.15.7",
-    "@layer0/prefetch": "^4.15.7",
-    "@layer0/react": "^4.15.7",
-    "@layer0/rum": "^3.1.0",
+    "@edgio/cli": "latest",
+    "@edgio/core": "latest",
+    "@edgio/devtools": "latest",
+    "@edgio/prefetch": "latest",
+    "@edgio/react": "latest",
+    "@edgio/rum": "latest",
     "autoprefixer": "^10.4.7",
     "classnames": "^2.3.1",
     "node-fetch": "^3.2.8",

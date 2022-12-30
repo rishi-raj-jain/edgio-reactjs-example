@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Prefetch } from '@layer0/react'
+import { Prefetch } from '@edgio/react'
 import { relativizeURL } from '../lib/helper'
 import { HeartIcon } from '@heroicons/react/outline'
 
