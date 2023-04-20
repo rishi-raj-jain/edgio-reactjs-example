@@ -1,6 +1,5 @@
 module.exports = {
-  connector: './edgio',
-  routes: './edgio/routes.js',
+  connector: '@edgio/react-cra',
   backends: {
     // Define a domain or IP address to proxy as a backend
     // More on: https://docs.edg.io/guides/edgio_config#backends
